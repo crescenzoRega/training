@@ -1,0 +1,137 @@
+# Directories #
+/build/
+target/
+ 
+# OS Files #
+.DS_Store
+ 
+*.class
+ 
+# Package Files #
+*.war
+*.ear
+*.db
+ 
+ 
+######################
+# Windows
+######################
+ 
+# Windows image file caches
+Thumbs.db 
+ 
+# Folder config file
+Desktop.ini
+ 
+ 
+######################
+# OSX
+######################
+ 
+.DS_Store
+.svn
+ 
+# Thumbnails
+._*
+ 
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Linux
+######################
+ 
+ 
+######################
+# Eclipse
+######################
+ 
+*.pydevproject
+.metadata
+tmp/**
+tmp/**/*
+**/eclipsebin/**
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+.loadpath
+/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/
+ 
+# Locally stored "Eclipse launch configurations"
+*.launch
+ 
+# CDT-specific
+.cproject
+ 
+# PDT-specific
+.buildpath
+
+# Ignoring .svn folder
+.svn/*
+
+# Git files created by Eclipse
+**/.gitginore
+ 
+ 
+######################
+# Hybris 
+######################
+
+# Files
+build.xml
+extensioninfo.xsd
+hmc.xsd
+platformhome.properties
+items.xsd
+beans.xsd
+**/*-testclasses.xml
+**/*-webtestclasses.xml
+.pmd
+.spring[Bb]eans
+
+# Folders
+# Folders - Hybris Specific
+data/
+log/
+temp/
+.metadata/
+bin/ext-*/
+bin/platform/
+**/RemoteSystemsTempFiles/
+**/.externalToolBuilders/
+licences/
+config/customize/
+config/languages/
+config/licence/
+config/security/
+config/solr/
+config/tcServer/
+config/tomcat/
+config/readme.txt
+config/backup/
+config/.classpath
+config/.project
+# Folders - Automagically Generated
+**/classes/
+**/gensrc/
+**/hmc/bin/
+**/hmc/classes
+**/web/addonsrc/
+**/web/commonwebsrc/
+**/web/testclasses/
+**/web/webroot/_ui/addons/
+**/web/webroot/cmscockpit/
+**/web/webroot/cockpit/
+**/web/webroot/productcockpit/
+**/web/webroot/WEB-INF/addons/
+**/web/webroot/WEB-INF/classes/
+**/web/webroot/WEB-INF/messages/addons/
+**/web/webroot/WEB-INF/tags/addons/
+**/web/webroot/WEB-INF/tld/addons/
+**/web/webroot/WEB-INF/views/addons/
