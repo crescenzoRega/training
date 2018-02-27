@@ -117,7 +117,7 @@ config/readme.txt
 config/backup/
 config/.classpath
 config/.project
-config/local.properties√
+config/local.properties
 # Folders - Automagically Generated
 **/classes/
 **/gensrc/
